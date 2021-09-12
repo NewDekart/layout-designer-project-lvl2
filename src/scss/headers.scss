@@ -1,0 +1,17 @@
+%h {
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+@each $name, $params in $header-font-sizes {
+  .#{$name} {
+    @extend %h;
+
+    font-size: map-get($params, desktop);
+
+    @include mobile-version {
+      font-size: map-get($params, mobile);
+    }
+  }
+}

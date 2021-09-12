@@ -1,0 +1,17 @@
+@font-face {
+  font-weight: 400;
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+body {
+  color: $dark-gray;
+  font: 400 1.125rem/1.5 "Roboto", sans-serif;
+  background-color: $black;
+}

@@ -1,0 +1,5 @@
+@mixin mobile-version {
+  @media (max-width: 599px) {
+    @content;
+  }
+}

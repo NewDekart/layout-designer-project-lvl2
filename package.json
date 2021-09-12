@@ -1,0 +1,31 @@
+{
+  "name": "layout-designer-project-lvl2",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/NewDekart/layout-designer-project-lvl2/workflows/hexlet-check/badge.svg)](https://github.com/NewDekart/layout-designer-project-lvl2/actions)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss/styles.scss:src/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NewDekart/layout-designer-project-lvl2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NewDekart/layout-designer-project-lvl2/issues"
+  },
+  "homepage": "https://github.com/NewDekart/layout-designer-project-lvl2#readme",
+  "devDependencies": {
+    "prettier": "^2.4.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-sass-guidelines": "^8.0.0",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-prettier": "^1.2.0",
+    "stylelint-scss": "^3.20.1"
+  }
+}
